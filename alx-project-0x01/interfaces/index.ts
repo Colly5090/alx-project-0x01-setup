@@ -29,12 +29,6 @@ export interface UserProps {
   };
 }
 
-export interface Company {
-    name:        string;
-    catchPhrase: string;
-    bs:          string;
-}
-
 export interface PostData {
   userId: number;
   id?: number;
@@ -51,5 +45,5 @@ export type UserData = UserProps;
 
 export interface UserModalProps {
     onClose: () => void;
-    onSubmit: (user: UserData) => void;
+    onSubmit: (post: UserProps) => void;
 }
