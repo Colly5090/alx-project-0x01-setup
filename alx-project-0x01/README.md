@@ -4,6 +4,7 @@ The application features multiple pages for displaying posts and users, with int
 
 ## Project Structure
 
+```
 alx-project-0x01/
 ├── components/
 │ ├── common/ # Reusable components
@@ -16,6 +17,7 @@ alx-project-0x01/
 ├── public/ # Static assets
 ├── styles/ # Global styles
 └── ... # Other Next.js files
+```
 
 ## Tasks
 
