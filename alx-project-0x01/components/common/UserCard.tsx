@@ -1,6 +1,6 @@
 import { UserProps } from "@/interfaces";
 
-const UserCard: React.FC<{ user: UserProps }> = ({ user }) => {
+const UserCard: React.FC<UserProps> = (user) => {
     return (
         <div className="flex gap-2 max-w-xl mx-auto my-6 p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="flex flex-col">
